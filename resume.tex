@@ -1,0 +1,199 @@
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\input{glyphtounicode}
+
+
+%----------FONT OPTIONS----------
+% sans-serif
+% \usepackage[sfdefault]{FiraSans}
+% \usepackage[sfdefault]{roboto}
+% \usepackage[sfdefault]{noto-sans}
+% \usepackage[default]{sourcesanspro}
+
+% serif
+% \usepackage{CormorantGaramond}
+% \usepackage{charter}
+
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & #2 \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+
+
+\begin{center}
+    \textbf{\Huge \scshape Raghav Joginipally} \\ \vspace{1pt}
+    \small \textit{Lead Engineer} \\
+    667-701-5424 $|$ \href{mailto:raghavrao.j@gmail.com}{\underline{raghavrao.j@gmail.com}} $|$ 
+    \href{https://www.linkedin.com/in/raghav-joginipally-095339b5/}{\underline{linkedin.com/in/raghav-joginipally/}} $|$
+    \href{https://github.com/raghavjoginipally}{\underline{github.com/raghavjoginipally}}
+\end{center}
+
+%-----------SUMMARY-----------
+\section*{Summary}
+With 7+ years of leadership in data engineering, analytics, product development, and data science, I drive teams to innovate. I've led cross-functional teams to architect, implement, and optimize data analytics frameworks. 
+
+%-----------PROGRAMMING SKILLS-----------
+\section{Technical Skills}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+     \textbf{Languages}{: Python, Scala, SQL} \\
+     \textbf{ETL }{: Spark, DataBricks, Snowflake, Airflow, Kafka, AtScale } \\
+     \textbf{Cloud Tech and BI}{: AWS, Azure, Google Cloud Platform, Tableau, ThoughtSpot,  } \\
+     \textbf{CI/CD}{: Git, Bit Bucket, Jenkins}
+    }}
+ \end{itemize}
+
+
+%-----------EXPERIENCE-----------
+\section{Experience}
+  \resumeSubHeadingListStart
+
+      
+
+
+    \resumeSubheading
+      {Lead Engineer}{July. 2020 - Present}
+      {Nike}{Beaverton, Oregon}
+    \resumeItemListStart
+      \resumeItem{Led a dynamic team comprised of data engineers, UI/UX engineers, and designers in the development of innovative Engineering applications and user-centric interfaces, ensuring alignment with digital product specifications and strategic direction.}
+        \resumeItem{Spearheaded the development and management of a resource allocation tool, resulting in a significant reduction of platform costs by \$ 4.2 million, specifically targeting Spark and ETL job execution.}
+        \resumeItem{Demonstrated ability to collaborate effectively with cross-functional teams including data Governance, Risk, and Compliance (GRC), and Privacy leaders to establish best practices and thought leadership in data security.}
+        % \resumeItem{Demonstrated history of establishing trust with stakeholders, providing expert counsel and assistance in governance and sensitive data management, cultivating enduring client partnerships, and facilitating customer achievements.}
+        \resumeItem{Proficient in implementing anonymization and pseudonymization techniques to safeguard sensitive data such as PII and more both in transit and at rest, demonstrating a commitment to ensuring data privacy and compliance.}
+        \resumeItem{Proficient in implementing data classification strategies ensuring high accuracy accross diverse datasets.}
+       \resumeItem{Collebrated with other teams to ensure alignment of security narrative, recognizing data security as a crucial component and contributing to a holistic security solution.}
+       % \resumeItem{leveraged AWS services effectively within the business, utilizing data and feedback to drive improvements and maximize value.}
+       \resumeItem{Led user-centric design initiatives, conducting thorough research and orchestrating successful product launches, resulting in high user adoption and satisfaction.}
+       % \resumeItem{Design, develop, deploy, and maintain analytical solutions within the Big Data ecosystem, leveraging technologies such as Hadoop, Hive, Databricks, Spark, Python, AWS, and Scala, among others}
+       \resumeItem{Conduct research, evaluate, and perform proof of concepts (POCs) on emerging technologies, such as Databricks, ThoughtSpot, AtScale, Google Cloud, and Microsoft Azure, to optimize high-volume data processing and platform response.}
+        % \resumeItem{Committed to continuous enhancement by analyzing user feedback and market trends, driving product expansion through strategic partnerships, and fostering community engagement for brand loyalty.}
+       % \resumeItem{Actively engage with AWS product teams to ensure early access and influence on new offerings, ensuring a comprehensive observability solution for AWS services.}
+       % \resumeItem{Define product roadmap based on business needs and challenges, which led to the building of observability dashboard for AWS environments to understand various resource utilization.}
+
+
+    \resumeItemListEnd
+
+    \resumeSubheading
+      {Senior Data Engineer}{June 2019 - July 2020}
+      {Converse}{Boston, MA}
+      \resumeItemListStart
+        \resumeItem{Led the design and implementation of the analytical solution, establishing a comprehensive Data Lake for Western Europe Consumer Data, enabling centralized access and analysis of critical consumer insights.}
+        \resumeItem{Developed a streamlined process for ingesting diverse data feeds from Salesforce and other vendors, ensuring the seamless acquisition of data for analysis and reporting purposes.}
+        \resumeItem{Ensured strict compliance with GDPR regulations, meticulously managing data deletion requests and other privacy-related compliance matters, safeguarding data integrity and user privacy.}
+      \resumeItemListEnd
+
+      \resumeSubheading
+      {Senior Data Engineer}{July 2018 - June 2019}
+      {Comcast}{West Chester, PA }
+      \resumeItemListStart
+        \resumeItem{Developed logical approaches for the design of different tables, leveraging Spark and Hive to create optimized table structures tailored to specific business needs and data processing requirements.}
+        \resumeItem{Automated data extraction processes from diverse data sources such as MySQL and UNIX, utilizing UC4 Workflow Scheduler to orchestrate the movement of resultant datasets to Hadoop Distributed File System (HDFS) and S3 buckets, ensuring efficient data storage and accessibility for downstream analytics and reporting tasks.}
+      \resumeItemListEnd
+
+  \resumeSubHeadingListEnd
+
+
+%-----------EDUCATION-----------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Hofstra University}{Hempstead, New York}
+      {MBA in Business Statistics}{2016 - 2018}
+      \resumeSubheading
+      {VIT}{vellore, India}
+      {Electronics and communication Engineering}{2009 - 2013}
+  \resumeSubHeadingListEnd
+
+%-----------Certifications-----------
+% \section{Certifications}
+%   \begin{itemize}[leftmargin=0.15in, label={}]
+%     \small{\item{
+%      \textbf{Cloud Digital Leader - Google Cloud} \\
+%      \textit{Issued Sep 2022 - Expires Sep 2025} \\
+%     }}
+%  \end{itemize}
+
+
+%-------------------------------------------
+\end{document}
